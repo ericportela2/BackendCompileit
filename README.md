@@ -9,7 +9,7 @@
 
 :warning: Run `python3 manage.py runserver` (in terminal) to run Django server.
 
-:warning: Start at this adress `http://127.0.0.1:8000/main_menu`
+:warning: Start at this adress `http://127.0.0.1:8000/main_menu` preferably on Google Chrome, but any browser would work.
 
 
 
