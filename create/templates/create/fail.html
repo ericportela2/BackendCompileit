@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Failed logging in. Try again!</h1>
+    <a>(NB! Too many attempts will temporarily suspend your account!)</a>
+
+    <br>
+    <br>
+
+    <a>Error message: {{ response | linebreaks }}</a>
+
+    <br>
+    
+    <a href="{% url 'create:index' %}"><input input type="Submit" value="Try again"></a>
+
+    <br>
+    <br>
+
+    <form action="{% url 'create:forgotPswd' %}" method="post">
+        {% csrf_token %} 
+
+
+        <input type="Submit" value="Forgot my password? (Returns link to reset password)">
+
+    </form>
+
+    <br>
+    <a href="{% url 'main_menu:index' %}"> <input input type="Submit" value="Home"> </a>
+   
+
+</body>
+</html>
+
+
+
+<!-- 
+    create = login
+    login = create
+-->

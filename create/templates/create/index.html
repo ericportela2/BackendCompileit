@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Compileit</title>
+</head>
+<body>
+
+    <h1>Login to account</h1>
+
+    <div>
+
+        <!-- action parametern i form elementet gör att vi kan skicka tillbaka datan i vår form till funktionen i urls.py i login mappen -->
+        <form action="{% url 'create:index' %}" method="post">
+            {% csrf_token %} 
+            {{ form|linebreaks }}
+            <input type="Submit" value = "Login">
+
+            <!-- <input type="text"> -->
+        </form>
+
+        <br>
+        <a href="{% url 'main_menu:index' %}"> <input input type="Submit" value="Home"> </a>
+
+    </div>
+
+    
+</body>
+</html>
