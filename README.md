@@ -27,7 +27,7 @@
 Django, Firebase auth, HTML, CSS, Python, Sketch
 
 
-# Assets
+# Screenshots
 
 <img src="https://user-images.githubusercontent.com/123047368/213462199-de34773f-1bf5-4a88-a1c0-ce8da91293b7.png">
 
