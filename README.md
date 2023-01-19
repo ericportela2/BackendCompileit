@@ -1,6 +1,6 @@
 <p align="center"> 
      <h1>Backend Case</h1>
-     <a> Backend case Compileit - Eric Portela.
+     <a> Backend case solution - Eric Portela.
      </a>
 </p>
 
