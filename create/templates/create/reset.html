@@ -10,15 +10,15 @@
     
     <h1 style="color:white;">Link to reset password (for: {{ email }}).</h1>
 
-    <a style="color:white;" target="_blank" href= "{{link}}" >Reset link</a>
+    <a style="color:red;" target="_blank" href= "{{link}}" >Reset link (click here)</a>
 
     <br>
     <br>
-    <a href="{% url 'create:index' %}"><input style="color:white;" input type="Submit" value="Try again with new password"></a>
+    <a href="{% url 'create:index' %}"><input input type="Submit" value="Try again with new password"></a>
 
     <br>
     <br>
-    <a href="{% url 'main_menu:index' %}"> <input style="color:white;" input type="Submit" value="Home"> </a>
+    <a href="{% url 'main_menu:index' %}"> <input input type="Submit" value="Home"> </a>
 
 
 </body>
