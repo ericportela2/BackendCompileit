@@ -24,10 +24,5 @@
 
 # Frameworks, languages, protocols, technologies, etc.
 
-Django
-Firebase auth
-HTML
-CSS
-Python
-Sketch
+Django, Firebase auth, HTML, CSS, Python, Sketch
 
