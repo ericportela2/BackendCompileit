@@ -7,7 +7,7 @@
 
 # Setup
 
-:warning: Run `python manage.py runserver` (in terminal) to run Django server.
+:warning: Run `python3 manage.py runserver` (in terminal) to run Django server.
 
 :warning: Start at this adress 'http://127.0.0.1:8000/main_menu'
 
