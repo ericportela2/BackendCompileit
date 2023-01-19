@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: rgb(28, 28, 30)">
 
-    <h3>Search results: {{ count }}</h3>
+    <h3 style="color:white; font-family: Arial">Search results: {{ count }}</h3>
 
     <ul>
 
         {% for user in searchResults %}
-            <li>{{ user }}</li>
+            <li style="color:white; font-family: Arial">{{ user }}</li>
         {% endfor %}
 
     </ul>

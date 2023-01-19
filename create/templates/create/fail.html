@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Failed logging in. Try again!</h1>
-    <a>(NB! Too many attempts will temporarily suspend your account!)</a>
+<body style="background-color: rgb(28, 28, 30)">
+    <h1 style="color:white; font-family: Arial">Failed logging in. Try again!</h1>
+    <h3 style="color:white; font-family: Arial">(NB! Too many attempts will temporarily suspend your account!)</h3>
 
     <br>
     <br>
 
-    <a>Error message: {{ response | linebreaks }}</a>
+    <a style="color:white; font-family: Arial">Error message: </a>
+
+    <u style="color:red; font-family: Arial"> {{ response | linebreaks }} </u>
 
     <br>
     

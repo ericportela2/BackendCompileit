@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="80px" viewBox="0 0 240 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>create_account</title>
+    <defs>
+        <linearGradient x1="99.0630463%" y1="50%" x2="-7.77156117e-14%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F5A1C2" offset="0%"></stop>
+            <stop stop-color="#C768E7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="create_account">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="240" height="80" rx="10"></rect>
+            <g id="Group-2" transform="translate(19.000000, 27.000000)" fill="#FFFFFF" font-family="SFPro-Medium, SF Pro" font-size="22" font-weight="400" letter-spacing="0.781">
+                <text id="CREATE-ACCOUNT">
+                    <tspan x="0" y="21">CREATE ACCOUNT</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

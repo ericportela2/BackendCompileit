@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,18 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Menu</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'main_menu/style.css' %}">
 </head>
-<body>
+<body style="background-color: rgb(28, 28, 30)">
 
-    <h3> <a href="{% url 'login:index' %}">Create account</a> </h3>
+    <div id="top"">
+        <h1 style="color:white; font-family: Arial">Backend Case - Login system</h1>
+    </div>
 
-    <br>
+    <div id="contents">
 
-    <h3> <a href = "{% url 'create:index' %}">Login to account</a> </h3>
+        
 
-    <br>
+        <a href="{% url 'login:index' %}" id="one"> <img src="{% static 'main_menu/create_account.svg' %}"> </a>
 
-    <h3> <a href="{% url 'search:index' %}">Search accounts</a> </h3>
+        <br>
+
+        <a href="{% url 'create:index' %}" id="two"> <img src="{% static 'main_menu/login.svg' %}"> </a>
+
+        <br>
+
+        <a href="{% url 'search:index' %}" id="three"> <img src="{% static 'main_menu/search.svg' %}"> </a>
+
+    </div>
 
 </body>
 </html>

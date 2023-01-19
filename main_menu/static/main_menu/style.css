@@ -1,0 +1,20 @@
+#top {
+    padding: 20px;
+    min-height: 20vh;
+    box-sizing: border-box;
+}
+
+
+#contents {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction:row ;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 20px;
+
+    /* column-gap: 50px; */
+    /* justify-content: space-between; */
+}
+

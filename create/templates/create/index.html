@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Compileit</title>
 </head>
-<body>
+<body style="background-color: rgb(28, 28, 30)">
 
-    <h1>Login to account</h1>
+    <h1 style="color:white; font-family: Arial">Login to account</h1>
 
     <div>
 
         <!-- action parametern i form elementet gör att vi kan skicka tillbaka datan i vår form till funktionen i urls.py i login mappen -->
-        <form action="{% url 'create:index' %}" method="post">
+        <form style="color:white; font-family: Arial" action="{% url 'create:index' %}" method="post">
             {% csrf_token %} 
             {{ form|linebreaks }}
             <input type="Submit" value = "Login">
