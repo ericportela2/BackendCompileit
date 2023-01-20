@@ -27,11 +27,9 @@
 Django, Firebase auth, HTML, CSS, Python, Sketch
 
 
-# Previews/Screenshots of interface
+# Create Account Demo
 
-<img src="https://user-images.githubusercontent.com/123047368/213462199-de34773f-1bf5-4a88-a1c0-ce8da91293b7.png">
-
-<img src="https://user-images.githubusercontent.com/123047368/213462263-91d5d406-2b4d-4748-891d-8034c27b1bde.png">
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/123047368/213686505-e60be2ba-92bc-4344-ac71-4996978aef13.gif)
 
 
 # Screenshot of Authentication page/Console in Firebase (preloaded with dummy data)
